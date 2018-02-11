@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//dtd XHTML 1.1 //EN" 
+    "http://www.w3.org/TR/xhtml11/DTD/ xhtml11.dtd">
+<html xmls="http://www.w3.org./1999/xhtml" >
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <title>Guestbook</title>
+        <link rel="Stylesheet" href="../css/main.css" type="text/css" />
+    </head>
+    <body>
+        <div id="main">
+            <h1>Guestbook</h1>
+            <div id="form-area">
+                <p>Please comment here:</p>
+                <form action="/post" method="post">
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <td>
+                                <input type="text" size="20" name="name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Comment</th>
+                            <td>
+                                <textarea rows="5" cols="40" name="comments"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                    <p><button type="submit">Commit</button></p>
+                </form>
+            </div>
+            <div id="entries-area">
+                <h2>The comments history</h2>
+                <div class="entry">
+                    <h3>Guest wrote comments(2018/02/11 19:56:01):</h3>
+                    <p>
+                        Comments<br />
+                        Comments
+                    </p>
+                    <h3>Guest wrote comments(2018/02/11 19:56:01):</h3>
+                    <p>
+                        Comments<br />
+                        Comments
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+                
